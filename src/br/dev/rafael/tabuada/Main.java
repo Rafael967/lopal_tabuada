@@ -1,5 +1,7 @@
 package br.dev.rafael.tabuada;
 
+import java.security.AllPermission;
+
 import br.dev.rafael.tabuada.gui.TelaTabuada;
 
 public class Main {
@@ -9,10 +11,12 @@ public class Main {
 			
 			TelaTabuada tela = new TelaTabuada();
 			tela.criarTela();
+		
 		}
 			
 	}
 	
+
 		
 		
 
